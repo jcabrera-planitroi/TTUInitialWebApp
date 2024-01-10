@@ -93,7 +93,7 @@
 #header {
     position: relative;
     width: 100%;
-    top: calc(100vh - 78px);
+    /*top: calc(100vh - 78px);*/
     left: 0;
     height: 78px;
 }

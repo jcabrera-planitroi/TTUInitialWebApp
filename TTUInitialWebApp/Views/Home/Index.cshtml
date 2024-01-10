@@ -1,12 +1,4 @@
-﻿@{
-    ViewData["Title"] = "Tech Trade Up - Get Paid. Give Back.";
-}
-
-<style>
-.text-content {
-    position: relative;
-    z-index: 2;
-}
+﻿<style>
 
 .triangle {
   fill: green; 
@@ -20,49 +12,10 @@
   gap: 4px; 
 }
 
-.image-container {
-    position: relative;
-}
-
-.image-container::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.5); /* Negro con 50% de opacidad */
-    z-index: 1; /* Asegúrate de que esté por encima de la imagen pero debajo del texto */
-}
-
-/* Asegúrate de que el contenido de texto esté por encima del pseudo-elemento */
-.text-content {
-    position: relative;
-    z-index: 2;
-}
 </style>
 
 <div role="main" class="main">
 <div class="position-relative">
-    <div class="d-none d-sm-block position-absolute top-50pct transform3dy-n50 right-15 z-index-3 pe-3">
-        <ul class="d-flex flex-column social-icons social-icons-clean social-icons-icon-light social-icons-medium">
-            <li class="social-icons-instagram">
-                <a href="http://www.instagram.com/" class="text-color-quaternary" target="_blank" title="Instagram">
-                    <i class="fab fa-instagram"></i>
-                </a>
-            </li>
-            <li class="social-icons-twitter my-2">
-                <a href="http://www.twitter.com/" class="text-color-quaternary" target="_blank" title="Twitter">
-                    <i class="fab fa-twitter"></i>
-                </a>
-            </li>
-            <li class="social-icons-facebook">
-                <a href="http://www.facebook.com/" class="text-color-quaternary" target="_blank" title="Facebook">
-                    <i class="fab fa-facebook-f"></i>
-                </a>
-            </li>
-        </ul>
-    </div>
     <div id="home" class="owl-carousel owl-carousel-light owl-carousel-light-init-fadeIn owl-theme manual custom-dots-style-1 dots-inside dots-horizontal-center show-dots-hover show-dots-xs dots-light nav-style-1 nav-inside nav-inside-plus nav-light nav-md nav-font-size-md show-nav-hover mb-0" data-plugin-options="{'autoplayTimeout': 7000, 'autoplay': false}" style="height: 100vh;">
         <div class="owl-stage-outer">
             <div class="owl-stage">
@@ -229,7 +182,7 @@
                 <i class="icon-user-following icons text-color-primary"></i>
             </div>
             <div class="feature-box-info">
-                <h4 class="mb-2 font-weight-bold">Elegible Devices</h4>
+                <h4 class="mb-2 font-weight-bold">Eligible Devices</h4>
                 <p>
                     Maximize Your IT Asset Value with Our Trade-In Program for
                     Apple and Windows Devices
